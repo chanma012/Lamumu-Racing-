@@ -1,0 +1,22 @@
+{
+  "build": {
+    "env": {
+      "VERCEL_URL": "true"
+    }
+  },
+  "git": {
+    "deploymentEnabled": false
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/web-export/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/web-export/$1"
+    }
+  ]
+}
