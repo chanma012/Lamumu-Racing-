@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/Lamumu-Racing-/$1"
-    }
-  ]
-}
